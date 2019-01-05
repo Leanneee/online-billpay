@@ -1,0 +1,2154 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+
+.masterTable {
+    height: 900px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    font-family: Arial;
+    font-size: 12px;
+}
+/*Sets main background color*/
+.masterBackgroundColor {
+    background-color: Gray;
+}
+
+.primaryTable {
+    width: 855px;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.colorText {
+    color: #006738;
+}
+
+
+.ajax__htmleditor_editor_bottomtoolbar {
+    display: none;
+}
+
+a {
+    color: Black;
+    text-decoration: underline;
+    outline: none;
+}
+
+    a:link {
+        text-decoration: none;
+        margin-left: 0px;
+    }
+
+    a:visited {
+        color: Black;
+        text-decoration: none;
+        outline: none;
+    }
+
+    a:hover {
+        color: Black;
+        text-decoration: underline;
+    }
+
+    a:active {
+        outline: none;
+        border-style: none;
+    }
+
+    a img {
+        border: 0px;
+    }
+/* Current Balance Header on Account Screen*/
+.menuCategory {
+    padding-left: 5px;
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-repeat: repeat-x;
+    font-weight: bold;
+    background-image: url('images/gradient_menu_header.png');
+}
+/* Last Payment Header on Account Screen*/
+.menuCategory1 {
+    color: #FFFFFF;
+    background-repeat: repeat-x;
+    font-weight: bold;
+    background-image: url('images/gradient_menu_header.png');
+    text-align: center;
+}
+/* Statement History Header on Account Screen*/
+.menuCategory2 {
+    background-repeat: repeat-x;
+    font-weight: bold;
+    color: #FFFFFF;
+    height: 8px;
+    background-image: url('images/gradient_menu_header.png');
+}
+/*menuHeader, menu and menuCotents are the main content on each page after login*/
+.menuHeader {
+    padding-left: 10px;
+    height: 23px;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: #006738;
+    position: static;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menuSubHeader {
+    background-color: #BAC5A0;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu {
+    border: 3px solid #006738;
+    width: 600px;
+    position: static;
+    border-radius: 5px;
+}
+
+.menuNotification {
+    width: 250px;
+    float: right;
+}
+
+.menuBorderTopSides {
+    /*border: 3px solid #006738;*/
+    border-left: 3px solid #006738;
+    border-right: 3px solid #006738;
+    border-top: 3px solid #006738;
+    width: 600px;
+    position: static;
+    /*border-radius: 5px;*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menuBorderSides {
+    border-left: 3px solid #006738;
+    border-right: 3px solid #006738;
+}
+
+.menuBorderBottom {
+    border-bottom: 3px solid #006738;
+}
+
+table.menu {
+    width: 606px;
+}
+
+
+.menuContents {
+    position: static;
+    background-color: #FFFFFF;
+    padding: 5px 5px 5px 5px;
+}
+/*obpImg and category appear to no longer be used*/
+.obpImg {
+    background-image: url('Images/OBP.png');
+    display: block;
+    height: 150px;
+    width: 500px;
+}
+
+.obpImgLink:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.category {
+    text-decoration: none;
+    color: Black;
+    height: 18px;
+}
+
+    .category:hover {
+        text-decoration: none;
+        color: Black;
+        height: 18px;
+        background-image: url('images/categorySelected.png');
+        background-repeat: no-repeat;
+    }
+/*Applies to every page, both before login and after */
+.contentPlaceHolder {
+    padding: 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-left: none 1px #e5e5e5;
+    border-bottom: none 1px #e5e5e5;
+    border-right: none 1px #e5e5e5;
+}
+
+.contentSection {
+    padding: 20px;
+}
+
+.customerHeader {
+    padding-left: 50px;
+    background-image: url('images/OnlineBillpayGrn.png');
+    width: 800px;
+    height: 90px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+/*menuBar accross each page*/
+.menuBar {
+    border: 3px solid #006738;
+    border-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+}
+/*Appears to no longer be used.*/
+.greenHeader {
+    background-color: #016501;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.greenContents {
+    padding-left: 20px;
+    border-left: dotted 1px #000000;
+    border-right: dotted 1px #000000;
+    border-bottom: dotted 1px #000000;
+    margin-top: 0px;
+}
+
+.menuNavigation {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    text-align: left;
+}
+
+.menuNavigation2 {
+    background-color: #FFFFFF;
+    border: solid 1px;
+    text-align: left;
+}
+
+.gradientBar {
+    background-image: url('images/tinyGradient.png.html');
+    background-repeat: repeat-x;
+    height: 6px;
+    display: block;
+}
+
+.tab {
+    border: solid 1px #C2DCFF;
+    height: 16px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    background-image: url('images/tab.png.html');
+    background-repeat: repeat-x;
+}
+
+    .tab:hover {
+        border: solid 1px #C2DCFF;
+        height: 16px;
+        padding: 0px 10px 0px 10px;
+        text-decoration: underline;
+        text-align: center;
+        background-image: url('images/tabselected.png.html');
+        background-repeat: repeat-x;
+    }
+
+.instructionText {
+    color: red;
+    font-family: Arial;
+    font-size: 14px;
+}
+/*Login panel*/
+.dropShadow {
+    background-color: White;
+    width: 250px;
+}
+
+.loginPanel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url('Images/LeafScreened.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #bac5a0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.loginTable {
+    /*background-image: url('images/MenuGradation.png');
+    background-repeat: repeat-y;
+    background-position: right;*/
+    width: 250px;
+}
+
+
+/*All Green buttons on site*/
+.button {
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bac5a0;
+    color: Black;
+    width: 90px;
+    font-weight: bold;
+    font-size: larger;
+    width: 140px;
+}
+
+    .button:hover {
+        background-color: #006738;
+        color: White;
+    }
+/*.button:disabled, .aspNetDisabled.button
+{
+   background-color:red;
+}*/
+
+
+a.button {
+    display: block;
+    padding: 5px;
+    width: 130px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.buttonNotification {
+    width: 100px;
+    font-weight: 300;
+}
+
+a.buttonNotificationShort {
+    width: 70px;
+    margin-top: 10px;
+}
+
+a.buttonThin {
+    margin-top: 2px;
+    font-size: smaller;
+    width: 90px;
+}
+
+input.button {
+    padding: 5px;
+}
+
+a.buttonText {
+}
+
+/*Orange button on Accounts Screen*/
+.buttonOrange {
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FFF200;
+    color: Black;
+    font-weight: bold;
+    font-size: larger;
+    width: 130px;
+}
+
+    .buttonOrange:hover {
+        background-color: #FFFaa6;
+        color: Black;
+    }
+
+a.buttonOrange {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+input.buttonOrange {
+    padding: 5px;
+}
+
+.buttonSized {
+    width: auto;
+}
+/* Not Used*/
+.topBar {
+    background-color: #D6E8FF;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.contents {
+    background-color: #D6E8FF;
+    padding: 0px 10px 10px 10px;
+    width: 100%;
+}
+
+.siteMap {
+    background-color: #D6E8FF;
+    color: Black;
+    padding-left: 15px;
+}
+
+
+/*End*/
+
+
+
+
+/*Errors on payment pages*/
+.errorText {
+    color: Red;
+    font-size: 12px;
+    font-family: Arial;
+    font-style: italic;
+}
+/*Not used*/
+.greendot {
+    border-style: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+}
+
+img:active {
+    border-style: none;
+    outline: none;
+}
+
+img:focus {
+    border-style: none;
+    outline: none;
+}
+
+.greenHeaderText {
+    font-family: Arial;
+    font-size: 26px;
+}
+
+.headerText {
+    font-family: Arial;
+    font-size: 26px;
+    color: #000000;
+}
+
+.headerTextAccount {
+    font-family: Arial;
+    font-size: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.whiteHeaderText {
+    font-size: 26px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.greenText {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+.linkButton {
+    font-size: 12px;
+    font-family: Arial;
+    text-decoration: none;
+    color: Black;
+}
+
+    .linkButton:hover {
+        font-size: 12px;
+        font-family: Arial;
+        text-decoration: none;
+        color: Black;
+    }
+
+.fieldLabel {
+    font-family: Arial;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    text-align: right;
+}
+
+.fieldValue {
+    font-family: Arial;
+    font-size: 12px;
+    color: #990000;
+    font-weight: bold;
+    text-align: left;
+}
+
+.fieldValue2 {
+    color: #990000;
+}
+
+.textBox, .textBoxCal {
+    border: 2px solid gray;
+    border-radius: 3px;
+    height: 20px;
+    margin-right: 1px;
+}
+
+    .textBox:focus, .textBoxCal:focus {
+        border-color: Black;
+    }
+
+.textBoxError {
+    border-color: Red;
+}
+
+.textBoxCal {
+    width: 176px;
+}
+
+    .textBoxCal:focus {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .textBoxCal + .ajax__calendar .ajax__calendar_container {
+        border: 2px solid #000000;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-width: 0px;
+    }
+
+    .textBoxCal + .ajax__calendar .ajax__calendar_hover .ajax__calendar_day, .textBoxCal + .ajax__calendar .ajax__calendar_hover .ajax__calendar_month, .textBoxCal + .ajax__calendar .ajax__calendar_hover .ajax__calendar_year {
+        border-color: lightgray;
+        background-color: #eeeeee;
+        color: black;
+    }
+
+    .textBoxCal + .ajax__calendar .ajax__calendar_active .ajax__calendar_day, .textBoxCal + .ajax__calendar .ajax__calendar_active .ajax__calendar_month, .textBoxCal + .ajax__calendar .ajax__calendar_active .ajax__calendar_year {
+        border-color: black;
+        background-color: lightgray;
+        color: black;
+        font-weight: bold;
+    }
+
+.noWidth {
+    border: 2px solid gray;
+    border-radius: 3px;
+    height: 20px;
+    margin-right: 1px;
+}
+
+    .noWidth:focus {
+        border-color: Black;
+    }
+
+.dropDown, .dropDownItalic {
+    border: 2px solid gray;
+    border-radius: 3px;
+    height: 25px;
+}
+
+.dropDownItalic {
+    font-style: italic;
+    border-color: lightgray;
+}
+
+
+    .dropDown:focus, .dropDownItalic:focus {
+        border-color: Black;
+    }
+
+
+
+
+/*Modal Popup*/
+.modalPopup {
+    border: 2px solid #006738;
+    background-color: White;
+    border-radius: 5px;
+}
+
+    .modalPopup + div {
+        border-radius: 5px;
+    }
+
+.modalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    height: 100px;
+    width: 100px;
+}
+
+modalPanel {
+    padding: 10px 15px;
+    background-color: White;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+
+
+.autocomplete_completionListElement {
+    visibility: hidden;
+    padding: 5px 5px 5px 5px;
+    margin: 6px 6px 6px 6px !important;
+    background-color: window;
+    color: windowtext;
+    border: buttonshadow;
+    border-width: 1px;
+    border-style: solid;
+    cursor: 'default';
+    overflow: auto;
+    height: 200px;
+    text-align: left;
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem {
+    background-color: #ffff99;
+    color: black;
+    padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem {
+    background-color: window;
+    color: windowtext;
+    padding: 1px;
+}
+
+
+
+.AdminButtons {
+    width: 300px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #F0F0F0;
+    padding-left: 10px;
+    border-bottom: 1px #CCCCCC solid;
+}
+
+    .AdminButtons:hover {
+        background-color: #CCC;
+        text-decoration: none;
+    }
+
+.Adminli {
+    list-style: none;
+}
+
+
+
+
+.nodottedborder {
+    border: 0;
+    outline: 0;
+}
+
+p.MsoNormal {
+    margin-top: 0in;
+    margin-right: 0in;
+    margin-bottom: 10.0pt;
+    margin-left: 0in;
+    line-height: 115%;
+    font-size: 11.0pt;
+    font-family: "Calibri", "sans-serif";
+}
+
+.infobox {
+    width: 185px;
+    height: 111px;
+    background-image: url('Images/gray_rounded_box.jpg');
+    background-repeat: no-repeat;
+    padding-top: 2px;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.linespace {
+    height: 15px;
+}
+
+.smallimage {
+    width: 2px;
+}
+
+.infotitle {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.infodescription {
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+
+
+
+
+/*Accordion Panels.*/
+.accordionHeader {
+    padding: 5px;
+    font-size: 14px;
+    width: 50%;
+    font-weight: bold;
+}
+
+    .accordionHeader:hover {
+        cursor: pointer;
+    }
+
+.accordionContent {
+    padding: 10px;
+}
+
+.accordionHeaderSelected {
+    color: darkblue;
+    padding: 5px;
+    font-size: 14px;
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title_bg {
+    background-image: url('Images/gridview_header_bg.png');
+    font-weight: bold;
+}
+
+/*client news*/
+.newsContents {
+    background-color: #DFDFDF;
+}
+
+.Title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*Side menu after login*/
+.innerMenu {
+    width: 185px;
+    position: relative;
+    float: left;
+    border: 3px solid #006738;
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 10px;
+}
+
+.innerMenuLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.innerMenu .Table {
+    width: 100%;
+}
+
+/*image for subitems in side menu*/
+.imageDot {
+    width: 8px;
+    height: 7px;
+    background-image: url('Images/redBox.png');
+}
+/*sidemenu_cells are all menu categories with sub items
+sidemenu_cells2 are alone*/
+.sidemenu_cells, .sidemenu_cells2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    float: left;
+}
+
+.sidemenu_cells {
+    width: 185px;
+}
+
+.sidemenu_cells2 {
+    width: 195px;
+}
+
+
+
+/*mainContents contains the content place holder*/
+.mainContents {
+    position: relative;
+    float: left;
+}
+/*portalTable contains mainContents and innerMenu divs*/
+.portalTable {
+    padding: 5px;
+}
+
+/*satellite menu contains username and logout button*/
+.satelliteName {
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.satelliteLogout {
+    position: relative;
+    float: right;
+    padding-right: 10px;
+}
+
+.nameLabel, .payLabel {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*All classes that have use darkgreen color */
+.innerMenuLabel, .infotitle, .accordionHeader, .AdminButtons, .AdminButtons:hover, .greenText, .greenHeader, .greenHeaderText, .nameLabel, .payLabel {
+    color: #006738;
+}
+
+/*Menu Borders */
+.menuNavigation {
+    border-color: Green;
+}
+/*Menu Borders */
+.menuNavigation2 {
+    border-color: Green;
+}
+
+
+/*Gridview css*/
+.grid {
+    width: 100%;
+    background-color: #f7f7de;
+    border: 1px solid #006738;
+}
+
+    .grid td {
+        padding: 4px;
+        border-left: 1px solid #006738;
+        border-right: 1px solid #006738;
+    }
+
+        .grid td a {
+            color: Blue;
+        }
+
+    .grid th {
+        background-color: #006738;
+        border: 1px solid #006738;
+        border-bottom: 0px;
+        color: White;
+        font-weight: bold;
+        padding: 1px;
+        padding-left: 4px;
+    }
+
+        .grid th a {
+            color: lightgray;
+            text-decoration: underline;
+        }
+
+            .grid th a:hover {
+                color: white;
+                text-decoration: underline;
+            }
+
+    .grid .alt {
+        background-color: White;
+    }
+
+
+
+    /*Gridview page change css*/
+    .grid .pgr {
+    }
+
+        .grid .pgr table {
+        }
+
+        .grid .pgr td {
+        }
+
+        .grid .pgr a {
+        }
+
+            .grid .pgr a:hover {
+            }
+
+.grid2 {
+    width: 100%;
+    border: 1px solid #006738;
+}
+
+    .grid2 td {
+        padding: 2px;
+        border-left: 1px solid #006738;
+        border-right: 1px solid #006738;
+    }
+
+
+    .grid2 th {
+        background-color: #006738;
+        border-bottom: 0px;
+        color: White;
+        font-weight: bold;
+        padding: 2px;
+        padding-left: 3px;
+    }
+
+    .grid2 .alt {
+        background-color: #e0e4d5;
+    }
+
+/*Detail View css*/
+.details {
+    background-color: #EEEEEE;
+    border: 1px solid #336666;
+    height: 50px;
+    width: 250px;
+}
+
+    .details td {
+        padding: 3px;
+        border-left: 1px solid #336666;
+        border-right: 1px solid #336666;
+    }
+
+    .details .alt {
+        background-color: #f2c47d;
+    }
+
+.sideMenuSpacer {
+    height: 100px;
+}
+
+.sidemenu_Paperless {
+    border-top: 1px solid #CCC;
+    padding: 5px 10px 5px 10px;
+}
+
+.accountDetails {
+    width: 400px;
+    padding-left: 30px;
+}
+
+.accountDetailsTable {
+    width: 100%;
+}
+
+.accountTable {
+    width: 100%;
+    padding: 3px;
+}
+
+.accountDescription {
+    width: 260px;
+}
+
+.accountSelect {
+}
+
+.balanceText {
+    font-size: 20px;
+}
+
+.accountHistoryHeader {
+    font-size: 10pt;
+    padding-left: 5px;
+}
+
+.paymentTable {
+    padding: 10px;
+}
+
+.paymentTextBox {
+    width: 234px;
+}
+
+.popupNotifiactons {
+    width: 700px;
+}
+
+.loginHeader {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.detailsLabel {
+    width: 125px;
+    text-align: right;
+    color: White;
+    background-color: #006738;
+    padding: 4px;
+}
+
+.detailsEntry {
+    padding-left: 4px;
+}
+
+.detailsSub {
+    background-color: #bac5a0;
+}
+
+.accountGrid {
+    width: 100%;
+    border: 1px solid #006738;
+    padding: 5px;
+}
+
+    .accountGrid td {
+        padding: 4px;
+        border-top: 1px solid #006738;
+        border-bottom: 1px solid #006738;
+    }
+
+
+    .accountGrid th {
+        background-color: #006738;
+        color: White;
+        font-weight: bold;
+        padding: 1px;
+        padding-left: 4px;
+    }
+
+    .accountGrid .alt {
+        background-color: #e0e4d5;
+    }
+
+.selectButton {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    display: block;
+    color: #FFFFFF;
+    height: 18px;
+    width: 75px;
+    background-image: url('images/RedRectangleButton.png');
+    background-repeat: no-repeat;
+}
+
+    .selectButton:Hover {
+        text-decoration: none;
+        color: #CCCCCC;
+    }
+
+.select .selectButton {
+    background-image: url('images/GreenRectangleButton.png');
+}
+
+.sideButtons, .sideButtons2 {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+
+.detailsTable {
+    border: 1px solid #006738;
+    width: 350px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+.accountsTable {
+    width: 350px;
+    position: relative;
+    float: left;
+    margin-left: 25px;
+}
+
+.loginMenu {
+    border: 3px solid #006738;
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 5px;
+}
+
+a.homeMenuButton {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+    a.homeMenuButton span {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: #bac5a0;
+        width: 230px;
+        display: block;
+        padding-top: 7px;
+        padding-left: 20px;
+        font-size: larger;
+        font-weight: bold;
+        height: 23px;
+        text-decoration: none;
+        transition: margin-left .5s, width .5s;
+        -webkit-transition: margin-left .5s, width .5s; /* Safari */
+    }
+
+    a.homeMenuButton:hover span {
+        width: 230px;
+        margin-left: 10px;
+    }
+
+/*a.homeMenuButton:before {
+        display: block;
+        width: 15px;
+        height: 30px;
+        content: "";
+        background-image: url('images/MenuGradation.png');
+        background-repeat: repeat-y;
+        background-position: right center;
+        float: right;
+        position: relative;
+    }*/
+
+
+
+.bottomBanner {
+    background-image: url("images/OBP_Bottom_Banner_text.png");
+    width: 670px;
+    height: 170px;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    padding-left: 130px;
+    margin-top: 30px;
+}
+
+a.menuButton {
+    text-decoration: none;
+}
+
+    a.menuButton span {
+        /*background-image: url('images/TopMenuGradation.png');
+        background-repeat: repeat-x;
+        background-position: bottom;*/
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #bac5a0;
+        width: 186px;
+        display: block;
+        padding-top: 6px;
+        font-size: larger;
+        font-weight: bold;
+        height: 26px;
+        margin-left: 5px;
+        margin-right: 5px;
+        transition: height .25s, margin-top .25s; /*-webkit-transition: height .25s,  margin-top .25s; Removed due to gap issue /* Safari */
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    a.menuButton:hover span {
+        height: 21px;
+        margin-top: 5px;
+    }
+
+.menuTop {
+    border: 3px solid #006738;
+    border-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 800px;
+}
+
+a.menuRegister span {
+    background-color: #fff200;
+}
+
+.registerPanel {
+    border: 1px solid #006738;
+    border-radius: 5px;
+    background-color: #bac5a0;
+    padding: 5px;
+}
+
+.arrow, .arrowleft {
+    padding-top: 9px;
+    display: block;
+    color: #000000;
+    height: 26px;
+    width: 100px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+}
+
+a.arrow, a.arrowleft {
+    text-decoration: none;
+    color: #000000;
+}
+
+input.arrow, input.arrowleft {
+    background-color: transparent;
+    border: 0px none;
+    padding-top: 0px;
+    height: 35px;
+    width: 115px;
+    padding-bottom: 1px;
+}
+
+    input.arrow:hover, input.arrowleft:hover {
+        cursor: pointer;
+    }
+
+.arrow {
+    background-image: url('images/ArrowFadeLiteRight.png');
+    background-position: right;
+    text-align: right;
+    padding-right: 15px; /*  left: -20px;*/
+}
+
+    .arrow:hover {
+        background-image: url('images/ArrowFadeDarkRight.png');
+        color: #FFFFFF;
+    }
+
+.arrowleft {
+    background-image: url('images/ArrowFadeLiteLeft.png');
+    background-position: left;
+    text-align: left;
+    padding-left: 15px; /*right: -20px;*/
+}
+
+    .arrowleft:hover {
+        background-image: url('images/ArrowFadeDarkLeft.png');
+        color: #FFFFFF;
+    }
+
+.arrow:click {
+}
+
+a.circle {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    color: #FFFFFF;
+    height: 41px;
+    width: 61px;
+    background-image: url('images/CancelDarkGrn.png.html');
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 5;
+    position: relative;
+}
+
+    a.circle:hover {
+        background-image: url('images/CancelRed.png.html');
+    }
+
+a.loginButton {
+    width: 125px;
+    color: #006738;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #006738;
+    background-color: #fff200;
+    border-radius: 10px;
+}
+
+    a.loginButton:hover {
+        /*width: 145px;*/
+        color: #006738;
+        background-color: #fffaa6;
+    }
+
+
+.roundedBox {
+    border: 3px solid #006738;
+    border-radius: 10px;
+    background-color: #bac5a0;
+    padding: 10px;
+}
+
+.registerHeader {
+    border: 1px solid #bac5a0;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    background-image: -webkit-linear-gradient(left, #bac5a0, white 5%, white 95%, #bac5a0 100%); /* For Safari */
+    background-image: -o-linear-gradient(right, #bac5a0, white 5%, white 95%, #bac5a0 100%); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(right, #bac5a0, white 5%, white 95%, #bac5a0 100%); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, #bac5a0, white 5%, white 95%, #bac5a0 100%); /* Standard syntax (must be last) */
+    border-radius: 50%;
+    color: #006738;
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.registerHeaderSelected {
+    border-color: #006738;
+    background-image: -webkit-linear-gradient(left, #006738, white 5%, white 95%, #006738 100%); /* For Safari */
+    background-image: -o-linear-gradient(right, #006738, white 5%, white 95%, #006738 100%); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(right, #006738, white 5%, white 95%, #006738 100%); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, #006738, white 5%, white 95%, #006738 100%); /* Standard syntax (must be last) */
+}
+
+.registerTitle {
+    font-size: x-large;
+    color: #006738;
+    text-align: center;
+}
+
+.registerTitleText {
+    font-weight: bold;
+    font-size: 52px;
+    font-variant: small-caps;
+    font-style: italic;
+    transform: scaleY(1.5);
+}
+
+.registerTitleBox {
+    background-color: #006738;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+
+.registerDescription {
+    padding: 10px;
+    width: 300px;
+    font-size: larger;
+}
+
+.registerBottom {
+    height: 25px;
+    border-bottom: 3px solid #006738;
+}
+
+input.arrowButtonRight {
+    background-color: #bac5a0;
+    background-image: -webkit-linear-gradient(left, white 0%, #bac5a0 25%); /* For Safari */
+    background-image: -o-linear-gradient(right, white 0%, #bac5a0 25%); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(right,white 0%, #bac5a0 25%); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, white 0%, #bac5a0 25%); /* Standard syntax (must be last) */
+    border: 0px;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    vertical-align: top;
+    cursor: pointer;
+    padding-right: 2px;
+}
+
+
+
+input.arrowRight {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #bac5a0;
+    border-right: none;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.arrowBox:hover input.arrowButtonRight {
+    background-color: #006738;
+    background-image: -webkit-linear-gradient(left, white 0%, #006738 25%); /* For Safari */
+    background-image: -o-linear-gradient(right, white 0%, #006738 25%); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(right,white 0%, #006738 25%); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, white 0%, #006738 25%); /* Standard syntax (must be last) */
+    color: white;
+}
+
+.arrowBox:hover input.arrowRight {
+    border-left-color: #006738;
+}
+
+
+a.arrowButtonLeft {
+    background-color: #bac5a0;
+    background-image: -webkit-linear-gradient(left, #bac5a0 75%, white 100%); /* For Safari */
+    background-image: -o-linear-gradient(right, #bac5a0 75%, white 100%); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(right, #bac5a0 75%, white 100%); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, #bac5a0 75%, white 100%); /* Standard syntax (must be last) */
+    border: 0px;
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    height: 24px;
+    vertical-align: top;
+    cursor: pointer;
+    padding-left: 2px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 6px;
+    left: 15px;
+}
+
+    a.arrowButtonLeft:before {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 15px solid #bac5a0;
+        border-left: none;
+        display: inline-block;
+        background-color: transparent;
+        cursor: pointer;
+        content: "";
+        position: absolute;
+        left: -15px;
+        top: 0px;
+    }
+
+    a.arrowButtonLeft:hover {
+        background-color: #006738;
+        background-image: -webkit-linear-gradient(left, #006738 75%, white 100%); /* For Safari */
+        background-image: -o-linear-gradient(right, #006738 75%, white 100%); /* For Opera 11.1 to 12.0 */
+        background-image: -moz-linear-gradient(right, #006738 75%, white 100%); /* For Firefox 3.6 to 15 */
+        background-image: linear-gradient(to right, #006738 75%, white 100%); /* Standard syntax (must be last) */
+        color: white;
+        text-decoration: none;
+    }
+
+        a.arrowButtonLeft:hover:before {
+            border-right-color: #006738;
+        }
+
+
+
+
+
+.center, a.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    float: left;
+    position: relative;
+}
+
+.right {
+    float: right;
+    position: relative;
+}
+
+.registerLabel {
+    font-weight: bold;
+}
+
+.registerValue {
+    color: #990000;
+    font-family: Arial;
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+}
+
+.popup {
+    border: 3px solid #006738;
+    border-radius: 5px;
+}
+
+    .popup + div {
+        border-radius: 4px;
+    }
+
+.newTextBox {
+    border: 2px solid #006738;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.newTextBoxError {
+    border-color: Red;
+}
+
+.registerTextBox {
+    border: 2px solid gray;
+    border-radius: 3px;
+    height: 20px;
+    margin-right: 1px;
+}
+
+.registerDropDown {
+    border: 2px solid gray;
+    border-radius: 3px;
+    height: 25px;
+}
+
+.registerTextBox:focus {
+    border-color: Black;
+}
+
+.registerDropDown:focus {
+    border-color: Black;
+}
+
+.registerTextBoxError {
+    border-color: Red;
+}
+
+.sButton {
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bac5a0;
+    color: Black;
+    width: 90px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+    .sButton:hover {
+        background-color: #006738;
+        color: White;
+    }
+
+input.sButton {
+    height: 30px;
+}
+
+a.sButton {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.innerMenuHeader, .innerMenuHeaderCenter {
+    color: White;
+    background-color: #006738;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    height: 18px;
+    padding-top: 1px;
+    cursor: default;
+}
+
+.innerMenuHeader {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.innerMenuHeaderCenter {
+    text-align: center;
+}
+
+a.innerMenuHeaderButton {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    width: 185px;
+    margin-bottom: 3px;
+}
+
+    a.innerMenuHeaderButton span {
+        color: White;
+        background-color: #006738;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-weight: bold;
+        text-align: left;
+        width: 185px;
+        display: block;
+        padding-top: 3px;
+        height: 18px;
+        text-decoration: none;
+        transition: margin-left .5s, width .5s;
+        -webkit-transition: margin-left .5s, width .5s; /* Safari */
+        padding-left: 20px;
+    }
+
+    a.innerMenuHeaderButton:hover span {
+        width: 175px;
+        margin-left: 10px;
+    }
+
+.innerMenuButton {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    width: 185px;
+    margin-bottom: 3px;
+}
+
+a.innerMenuButton {
+    text-decoration: none;
+}
+
+.innerMenuButton > span {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #bac5a0;
+    width: 145px;
+    display: block;
+    padding-top: 3px;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: margin-left .5s, width .5s;
+    -webkit-transition: margin-left .5s, width .5s; /* Safari */
+}
+
+.innerMenuButton:hover > span {
+    width: 145px;
+    margin-left: 10px;
+}
+
+.innerMenuButton2 {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 3px;
+}
+
+a.innerMenuButton2 {
+    text-decoration: none;
+}
+
+.innerMenuButton2 > span {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #bac5a0;
+    display: block;
+    padding-top: 3px;
+    padding-left: 25px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    text-decoration: none;
+    transition: margin-left .5s, width .5s;
+    -webkit-transition: margin-left .5s, width .5s; /* Safari */
+}
+
+.innerMenuButton2:hover > span {
+    margin-left: 10px;
+}
+
+/*
+.innerMenuButton:before
+{
+    display: block;
+    width: 15px;
+    height: 21px;
+    content: "";
+    background-image: url('images/MenuGradation.png');
+    background-repeat: repeat-y;
+    background-position: right center;
+    float: right;
+    position: relative;
+}*/
+a.innerMenuGold span {
+    background-color: #fff200;
+}
+
+.innerMenuPaperless > span {
+    height: 32px;
+    padding-top: 3px;
+}
+
+.innerMenuPaperless:before {
+    height: 35px;
+}
+
+.innerMenuBold {
+    font-weight: bold;
+}
+
+    .innerMenuBold > span {
+        padding-left: 20px;
+        width: 155px;
+    }
+
+.accountMenuButton {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    width: 120px;
+    margin-bottom: 3px;
+}
+
+a.accountMenuButton {
+    text-decoration: none;
+}
+
+.accountMenuButton > span {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #bac5a0;
+    width: 115px;
+    display: block;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.accountMenuButton:hover > span {
+    background-color: #e0e4d5;
+}
+
+.accountMenuRow {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #bac5a0;
+    width: 115px;
+    display: block;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+    .accountMenuRow:hover {
+        background-color: #e0e4d5;
+    }
+
+.accountMenuPgr {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #BAC5A0;
+    width: 115px;
+    display: block;
+    padding-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+    .accountMenuPgr table {
+    }
+
+    .accountMenuPgr td {
+        border: 0px;
+    }
+
+    .accountMenuPgr span {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .accountMenuPgr a {
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+        .accountMenuPgr a:hover {
+        }
+
+/*.accountMenuButton:before
+{
+    display: block;
+    width: 15px;
+    height: 21px;
+    content: "";
+    background-image: url('images/MenuGradation.png');
+    background-repeat: repeat-y;
+    background-position: right center;
+    float: right;
+    position: relative;
+}*/
+.accountMenuSelected a.accountMenuButton span {
+    background-color: #fff200;
+}
+
+.accountMenuHeader {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    width: 120px;
+    margin-bottom: 3px;
+}
+
+    .accountMenuHeader > span {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: #006738;
+        width: 115px;
+        display: block;
+        padding-top: 3px;
+        padding-left: 5px;
+        color: White;
+        font-weight: bold;
+        height: 18px;
+        text-decoration: none;
+        transition: margin-left .5s, width .5s;
+        -webkit-transition: margin-left .5s, width .5s; /* Safari */
+    }
+
+.accountMenu {
+    border: 3px solid #006738;
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.box {
+    border: 3px solid #006738;
+    border-radius: 5px;
+}
+
+.boxFixedWidth {
+    max-width: 210px;
+}
+
+
+.boxHeader {
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #006738;
+    padding-bottom: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxSubHeader {
+    background-color: #bac5a0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.paging {
+    background-color: #bac5a0;
+}
+
+    .paging a {
+    }
+
+    .paging span {
+        font-weight: bold;
+    }
+
+.bottomBorder {
+    border-bottom: 2px solid #006738;
+}
+
+.topBorder {
+    border-top: 2px solid #006738;
+}
+
+.rowPadding {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.toggleButton {
+    cursor: pointer;
+    background-color: #bac5a0;
+    border-radius: 5px;
+    width: 21px;
+    text-align: center;
+}
+
+.gridNew {
+    width: 100%;
+    border: 1px solid #006738;
+}
+
+    .gridNew td {
+    }
+
+    .gridNew th {
+        background-color: #BAC5A0;
+        border-bottom: 2px solid #006738;
+        color: #006738;
+        font-weight: bold;
+        text-align: left;
+    }
+
+        .gridNew th a {
+            color: black;
+            text-decoration: underline;
+        }
+
+    .gridNew .alt {
+        background-color: #e0e4d5;
+    }
+
+    .gridNew .row:hover {
+        background-color: #BAC5A0;
+    }
+
+
+    /*Gridview page change css*/
+    .gridNew .pgr {
+        background-color: #BAC5A0;
+        border-top: 2px solid #006738;
+    }
+
+        .gridNew .pgr table {
+        }
+
+        .gridNew .pgr td {
+            border: 0px;
+        }
+
+        .gridNew .pgr span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .gridNew .pgr a {
+            font-weight: bold;
+        }
+
+            .gridNew .pgr a:hover {
+            }
+
+
+    /*Gridview page change css using next last*/
+    .gridNew .pgr2 {
+        background-color: #BAC5A0;
+        border-top: 2px solid #006738;
+    }
+
+        .gridNew .pgr2 table {
+        }
+
+        .gridNew .pgr2 td {
+            border: 0px;
+        }
+
+        .gridNew .pgr2 span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .gridNew .pgr2 a {
+            font-weight: bold;
+            padding: 1px 5px;
+        }
+
+            .gridNew .pgr2 a:hover {
+            }
+
+.gridNewContainer {
+    border: 2px solid #006738;
+    border-radius: 5px;
+    border-bottom-width: 6px;
+}
+
+.gridNewHeader {
+    background-color: #006738;
+    color: White;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.gridNewSubHeader {
+    background-color: #BAC5A0;
+    border: 1px solid #006738;
+    padding: 2px;
+}
+
+.gridNewContainer2 {
+    border: 2px solid #006738;
+    border-radius: 5px;
+    border-bottom-width: 6px;
+    border-top-width: 6px;
+}
+
+.payTable {
+    border: 2px solid #006738;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.selectTab {
+    /*border-bottom: 2px solid #006738;*/
+    width: 100%;
+}
+
+    .selectTab td {
+        padding: 0px 5px;
+    }
+
+    /*.select td:first-of-type {
+                padding-left: 0px;
+            }
+
+            .select td:last-of-type {
+                padding-right: 0px;
+            }*/
+
+    .selectTab input[type="radio"] {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+
+.selectTabStoredPWMB td {
+    padding: 0px 5px;
+}
+
+
+.selectTab input[type="radio"] + label {
+    width: auto;
+    text-align: center;
+    display: block;
+    border-width: 2px 2px 0px 2px;
+    border-style: solid;
+    border-color: #006738;
+    background-color: #bac5a0;
+    height: 25px;
+    margin-top: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: margin-top .5s, height .5s;
+    -webkit-transition: margin-top .5s, height .5s; /* Safari */
+}
+
+    .selectTab input[type="radio"] + label:hover {
+        height: 20px;
+        margin-top: 5px;
+    }
+
+.selectTab input[type="radio"]:checked + label {
+    background-color: #006738;
+    color: white;
+    cursor: default;
+}
+
+    .selectTab input[type="radio"]:checked + label:hover {
+        height: 25px;
+        margin-top: 0px;
+    }
+
+.selectTab input[type="radio"]:disabled + label {
+}
+
+.selectTab input[type="radio"]:checked:disabled + label {
+}
+
+.selectTabStoredPWMB input[type="radio"] {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+    .selectTabStoredPWMB input[type="radio"] + label {
+        width: auto;
+        text-align: center;
+        display: block;
+        border-width: 2px 2px 0px 2px;
+        border-style: solid;
+        border-color: #006738;
+        background-color: #bac5a0;
+        height: 35px;
+        margin-top: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-top: 5px;
+        cursor: pointer;
+        transition: margin-top .5s, height .5s;
+        -webkit-transition: margin-top .5s, height .5s; /* Safari */
+    }
+
+
+
+        .selectTabStoredPWMB input[type="radio"] + label:hover {
+            height: 30px;
+            margin-top: 5px;
+        }
+
+    .selectTabStoredPWMB input[type="radio"]:checked + label {
+        background-color: #006738;
+        color: white;
+        cursor: default;
+    }
+
+        .selectTabStoredPWMB input[type="radio"]:checked + label:hover {
+            height: 35px;
+            margin-top: 0px;
+        }
+
+.progress {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    cursor: wait;
+}
+
+.listboxNotification {
+    border: 2px solid #006738;
+    padding: 10px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.paddingTop {
+    padding-top: 8px;
+}
+
+/*Registration Requirements*/
+.reqMet {
+    color: #006738;
+    background: url('images/SmallGreen.png') left center no-repeat;
+}
+
+.reqNotMet {
+    color: red;
+    background: url('images/SmallRed.png') left center no-repeat;
+}
+
+
+.centerElement {
+            vertical-align: middle;
+            margin: 0 auto;
+            width: 50%;
+}
+
+a.buttoninline{
+    display: inline-block;
+}
+
+/*Registration Requirements*/
